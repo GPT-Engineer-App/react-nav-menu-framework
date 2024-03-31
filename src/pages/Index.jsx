@@ -16,11 +16,11 @@ const menuItems = [
 
 const Index = () => {
   return (
-    <Box className="drawer">
+    <Box className="drawer h-screen">
       <input id="left-sidebar-drawer" type="checkbox" className="drawer-toggle" />
       <Box className="drawer-content">
         {/* Navbar */}
-        <Box className="navbar mb-2 shadow-lg bg-neutral text-neutral-content">
+        <Box className="navbar shadow-lg bg-neutral text-neutral-content">
           <Box className="flex-none">
             <label htmlFor="left-sidebar-drawer" className="btn btn-square btn-ghost">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-6 h-6 stroke-current">
